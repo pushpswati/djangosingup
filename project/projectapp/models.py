@@ -5,6 +5,7 @@ class Post(models.Model):
       mail = models.CharField(max_length=100, blank=True, default='')
       contact = models.CharField(max_length=100, blank=True, default='')
       address = models.CharField(max_length=100, blank=True, default='')
+      password = models.CharField(max_length=10, blank=True, default='')
       
 
       class Meta:
